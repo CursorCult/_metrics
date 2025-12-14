@@ -1,6 +1,6 @@
 # CursorCult Metrics (`_metrics`)
 
-This repo defines **standard benchmark metrics** that `_benchmark_<RULE>` and `_benchmark_<RULESET>` repos can reuse.
+This repo defines **standard benchmark metrics** that `_benchmark_<RULE>` repos can reuse.
 
 ## Structure
 
@@ -28,4 +28,3 @@ See `python/` for metric scripts and their expected inputs.
 ## License
 
 Unlicense / public domain. See `LICENSE`.
-
