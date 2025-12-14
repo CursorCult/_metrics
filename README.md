@@ -21,9 +21,14 @@ A metric is a program/script that:
 
 That single number is the metric value (higher-is-better unless the metric says otherwise).
 
-## Python metrics
+## Standard Artifacts
 
-See `python/` for metric scripts and their expected inputs.
+Benchmarks should emit the following files into their `artifacts/` directory to use these metrics:
+
+### Python Coverage (`code_coverage.py`)
+- **Input**: `coverage.json`
+- **Format**: Standard JSON output from `coverage json`.
+- **Usage**: `python3 python/code_coverage.py <path/to/coverage.json>`
 
 ## License
 
